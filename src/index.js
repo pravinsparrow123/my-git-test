@@ -9,13 +9,13 @@ import Home from './Home';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter basename='/my-git-test/'>
+  <BrowserRouter basename='/my-git-test'>
       <Routes>
         {/* <Route path="/" element={<App />}>
          
         </Route> */}
          <Route index element={<Home />} />
-         <Route path="/blogs" element={<Blogs />} />
+         <Route path="blogs" element={<Blogs />} />
       </Routes>
    {/* <React.StrictMode>
     <App />
