@@ -9,7 +9,7 @@ import Home from './Home';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter basename='/my-git-test'>
+  <BrowserRouter basename='/my-git-test/'>
       <Routes>
         {/* <Route path="/" element={<App />}>
          
