@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter,Route,Routes } from 'react-router-dom';
+import { HashRouter as Router,Route,Routes,HashRouter } from 'react-router-dom';
 import Blogs from './Blogs';
 import Home from './Home';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter basename='/my-git-test'>
+  <Router basename='/my-git-test'>
       <Routes>
         {/* <Route path="/" element={<App />}>
          
@@ -20,7 +20,7 @@ root.render(
    {/* <React.StrictMode>
     <App />
   </React.StrictMode> */}
-  </BrowserRouter>
+  </Router>
  
 );
 
